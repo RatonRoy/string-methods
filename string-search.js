@@ -41,7 +41,7 @@ console.log(hpProducts);
 
 const endString = 'generation';
 const genProducts = [];
-// endWith() method return true if the selective string end with 'generation' or not it returns false.
+// endWith() method return true if the selective string end with 'generation' or not it returns fals
 for (const product of products) {
 	if (product.toLowerCase().endsWith(endString.toLowerCase())) {
 		genProducts.push(product);

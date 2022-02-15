@@ -66,4 +66,8 @@ console.log(anthem2.substring(-3));
 console.log(anthem2.substring(anthem2.length - 1));
 // not modify the main string 
 console.log(anthem2);
-
+/* concate method  */
+let first = 'amer ';
+let second = 'desh';
+let connectWords = first.concat(second);
+console.log(connectWords);

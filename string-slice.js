@@ -45,3 +45,25 @@ console.log(anthem1.slice(0, 1));
 console.log(anthem1.slice(-1));
 // the whole string 
 console.log(anthem1.slice(0));
+/* 
+substr(start);
+substr(start, length);
+start:
+The index of the first character to include in the returned substring.
+length:
+Optional. The number of characters to extract.
+The substring() method does not change the original string.
+If start is greater than end, arguments are swapped: (4, 1) = (1, 4).
+Start or end values less than 0, are treated as 0.
+it returns a string 
+*/
+const anthem2 = 'O ma fagune tor amer bone grane pagol kore';
+// here it start with 0 index and end in the 3 index not include 4 index so this is take 4 characters that why it call the length.
+console.log(anthem2.substring(0, 4));
+// If "start" is less than 0, it will start from index 0:
+console.log(anthem2.substring(-3));
+//Only the last:
+console.log(anthem2.substring(anthem2.length - 1));
+// not modify the main string 
+console.log(anthem2);
+
